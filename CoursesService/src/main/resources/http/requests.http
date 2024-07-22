@@ -1,0 +1,23 @@
+POST localhost:61056/courses
+Content-Type: application/json
+
+{
+  "title": "third"
+}
+
+###
+
+GET localhost:60115/courses/1
+
+###
+
+DELETE localhost:8080/api/students/7
+
+###
+
+PUT localhost:60115/courses/1
+Content-Type: application/json
+
+{
+  "title": "Second"
+}
